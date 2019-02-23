@@ -1,0 +1,16 @@
+[2019-02-19 23:38:10] local.ERROR: There are no commands defined in the "kay" namespace.
+
+Did you mean this?
+    key {"exception":"[object] (Symfony\\Component\\Console\\Exception\\NamespaceNotFoundException(code: 0): There are no commands defined in the \"kay\" namespace.
+
+Did you mean this?
+    key at C:\\laragon\\www\\incidencias\\vendor\\symfony\\console\\Application.php:578)
+[stacktrace]
+#0 C:\\laragon\\www\\incidencias\\vendor\\symfony\\console\\Application.php(618): Symfony\\Component\\Console\\Application->findNamespace('kay')
+#1 C:\\laragon\\www\\incidencias\\vendor\\symfony\\console\\Application.php(226): Symfony\\Component\\Console\\Application->find('kay:')
+#2 C:\\laragon\\www\\incidencias\\vendor\\symfony\\console\\Application.php(145): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 C:\\laragon\\www\\incidencias\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 C:\\laragon\\www\\incidencias\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 C:\\laragon\\www\\incidencias\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
